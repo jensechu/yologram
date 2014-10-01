@@ -36,8 +36,7 @@ camera.on('ready', function() {
       accel.on('data', function (xyz) {
 	var yPos = +xyz[1].toFixed(2);
 
-	if (yPos > 1.8 && true) {
-	  var shouldTakePicture = false;
+	if (yPos > 1.8) {
 	  YOLO();
 	}
       });
