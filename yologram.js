@@ -17,7 +17,7 @@ camera.on('ready', function() {
 	notificationLED.low();
 
 	// Name the image
-	var name = 'yologram-' + Math.floor(Date.now()*1000) + '.jpg';
+	var name = 'yologram-' + Date.now() + '.jpg';
 
 	// Save the image
 	console.log('Yologram crushing down as ', name, '...');
